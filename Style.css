@@ -28,7 +28,7 @@
     margin-left: 85%;
     transition: 0.5s ease;
     z-index: 9999999;
-    transform: translateX(0);
+    transform: translateX(100%);
 }
 .side-menu ul li{
     list-style: none;
@@ -357,4 +357,5 @@ footer {
         display: none;
     }
 }
+
 
