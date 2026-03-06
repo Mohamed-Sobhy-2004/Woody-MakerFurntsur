@@ -25,7 +25,7 @@
     float: right;
     box-shadow: -1px 0px 15px black;
     position: fixed;
-    margin-left: 80%;
+    margin-left: 85%;
     transition: 0.5s ease;
     z-index: 9999999;
     transform: translateX(0);
@@ -357,3 +357,4 @@ footer {
         display: none;
     }
 }
+
