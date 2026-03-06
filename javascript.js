@@ -11,7 +11,7 @@ let imgsc = document.querySelector('.imgsc')
 let Hero = document.querySelector('.Hero')
 
 function openmenu(){
-    sidemenu.style.width = '15%';
+    sidemenu.style.transform = 'translateX(15%)';
     sidemenu.style. marginLeft = '85%';
     WhatWeDo.style.filter = 'blur(2px)';
     Catigores.style.filter = 'blur(2px)';
@@ -21,7 +21,7 @@ function openmenu(){
     NavBar.style.filter = 'blur(2px)';
 }
 function closemenu(){
-    sidemenu.style.width = '0%';
+    sidemenu.style.transform = 'translateX(100%)';
     sidemenu.style. marginLeft = '100%';
     WhatWeDo.style.filter = 'blur(0px)';
     Catigores.style.filter = 'blur(0px)';
