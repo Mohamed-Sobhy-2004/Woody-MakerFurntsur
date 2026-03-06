@@ -19,23 +19,23 @@
     cursor: pointer;
 }
 .side-menu{
-    width: 0%;
+    width: 15%;
     height: 100vh;
     background-color: #ffffff;
     float: right;
     box-shadow: -1px 0px 15px black;
     position: fixed;
-    margin-left: 100%;
-    transition: 1s ease;
+    margin-left: 80%;
+    transition: 0.5s ease;
     z-index: 9999999;
-    
+    transform: translateX(0);
 }
 .side-menu ul li{
     list-style: none;
 }
 .side-menu .imgs{
-    width: 90%;
-    height: 100px;
+    width: 80%;
+    height: 50px;
     margin-top: 80px;
     transition: 0.5s all ease;
 }
